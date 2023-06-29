@@ -1,7 +1,137 @@
 * {
     box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* From here starts the first container*/
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15%;
 }
 
-h1 {
-    color: red;
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
 }
+
+.link-header {
+    display: flex;
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-header,
+.bottom-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.bottom-header > * {
+    flex: 1 1 40%;
+}
+
+.image-wide {
+    width: 40%;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin: o;
+}
+/*Here ends the first container*/
+/*Here starts the second container*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 20% 30px;
+
+}
+
+.content-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px;
+}
+
+.cont-img {
+    flex: 1 1 150px;
+    text-align: center;
+}
+
+.image {
+    width: 150px;
+    margin: 0;
+}
+/*Here ends the secont container*/
+/*Here starts the third container*/
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20%;
+    justify-content: space-between;
+    background-color: lightgrey;
+    
+}
+
+.thor {
+    font-weight: 900;
+    align-self: flex-end;
+}
+/*Here ends the third container*/
+/*Here starts the fourth container*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 20px 8%;
+    margin: 30px 15%;
+    border-radius: 10px;
+    gap: 50px;
+    font-size: 15px;
+}
+
+.bordered-button {
+    border: 2px solid white;
+    flex-basis: 100px;
+}
+/*Here ends the fourth container*/
