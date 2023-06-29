@@ -78,24 +78,18 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    padding: 20px 20% 30px;
-
+    padding: 20px;
+    margin: 0 20%;
 }
 
 .content-images {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    gap: 10px;
-}
-
-.cont-img {
-    flex: 1 1 150px;
-    text-align: center;
+    gap: 30px;
+    justify-content: center;
 }
 
 .image {
-    width: 150px;
+    width: 200px;
     margin: 0;
 }
 /*Here ends the secont container*/
